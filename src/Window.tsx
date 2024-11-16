@@ -56,6 +56,7 @@ export default class App extends React.Component<{}, AppState> {
         const usdAssets: USDAssetType[] = [
             {name: "Sample 1", url:"./samples/stage01.usd"},
             {name: "Sample 2", url:"./samples/stage02.usd"},
+            {name: "Kitchen", url:"./samples/Kitchen_set/Kitchen_set.usd"},
         ];
         
         this.state = {
